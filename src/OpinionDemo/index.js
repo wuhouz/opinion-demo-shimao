@@ -5,15 +5,15 @@ import './index.css';
 import Icon from './Icon';
 import Employer from './Employer';
 import Statistics from './Statistics';
-import CurrentEmployerData from './Employer/CurrentEmployerData.json';
-import CurrentDesData from './Employer/CurrentDesriptionData';
-import PeerEmployerData from './Employer/PeerEmployerData.json';
-import PeerDesData from './Employer/PeerDesciptionData';
-import randomData1 from './Employer/randomData1.json'
-import randomData2 from './Employer/randomData2.json'
+import CurrentEmployerData from './Employer/currentData/CurrentEmployerData.json'; //
+import CurrentDesData from './Employer/currentData/CurrentDesriptionData'; //
+import PeerEmployerData from './Employer/peerData/PeerEmployerData.json';
+import PeerDesData from './Employer/peerData/PeerDesciptionData';
+import randomPeerData from './Employer/peerData/randomPeerData.json'
+import randomCurrentData from './Employer/currentData/randomCurrentData.json'
 
-CurrentEmployerData.splice(0,0,...randomData2);
-PeerEmployerData.splice(0,0,...randomData1);
+CurrentEmployerData.splice(0,0,...randomCurrentData);
+PeerEmployerData.splice(0,0,...randomPeerData);
 
 const TabPane = Tabs.TabPane;
 const NetworkOpinion = '"网络舆情"指网民关于社会中各种现象、问题所表达的信念、态度、意见和情绪等。"声量"用来描述与衡量信息传播的影响力大小，具体指标包含网络阅读量、点击量、转发量、评论量、点赞量、收藏数等。';
@@ -35,7 +35,7 @@ const peerDescriptionData = [ { name: '人', color: 'rgb(44, 173, 177)', percent
     { name: '工作', color: '#3cb371', percent: '1.1%' } ];
 
 // 腾讯 top5
-const SORT_TENCENT_MENTIONED = [
+const SORT_CURRENT_MENTIONED = [
     {
         name: '羡慕',
         num: 108*CONST_RATIO_TENCENT,
@@ -91,7 +91,7 @@ const SORT_TENCENT_MENTIONED = [
         </div>
     }
 ];
-const SORT_TENCENT_SPECIAL = [
+const SORT_CURRENT_SPECIAL = [
     {
         name: '上瘾',
         num: 53*CONST_RATIO_TENCENT,
@@ -312,7 +312,7 @@ export default class extends PureComponent {
                         <strong className="analyze-title">雇主竞争机会分析</strong>
                         <p className="analyze-slogan">根据全网声量进行话题分类，采用四大象限展示当前时段的市场口碑风向，提醒雇主时刻把握竞争机遇</p>
                         <Tabs animated={false}>
-                            <TabPane tab="当前雇主" key="1"><Employer data={CurrentEmployerData} desData={CurrentDesData} sort_mentioned={SORT_TENCENT_MENTIONED} sort_special={SORT_TENCENT_SPECIAL} descriptionData={currentDescriptionData}/></TabPane>
+                            <TabPane tab="当前雇主" key="1"><Employer data={CurrentEmployerData} desData={CurrentDesData} sort_mentioned={SORT_CURRENT_MENTIONED} sort_special={SORT_CURRENT_SPECIAL} descriptionData={currentDescriptionData}/></TabPane>
                             <TabPane tab="同行雇主" key="2"><Employer data={PeerEmployerData} desData={PeerDesData}  sort_mentioned={SORT_PEER_MENTIONED} sort_special={SORT_PEER_SPECIAL} descriptionData={peerDescriptionData}/></TabPane>
                         </Tabs>
                     </div>

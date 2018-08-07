@@ -1,0 +1,152 @@
+.employer-wrapper {
+  width: 820px;
+  min-width: 820px; }
+  .employer-wrapper .employer-coordinate svg {
+    transform: translateY(-2px); }
+  .employer-wrapper .employer-coordinate .coordinate-description .description-top {
+    margin-top: 47px;
+    color: #8A8A8A;
+    font-size: 12px;
+    text-align: center; }
+    .employer-wrapper .employer-coordinate .coordinate-description .description-top .x {
+      font-size: 14px;
+      margin-right: 5px; }
+    .employer-wrapper .employer-coordinate .coordinate-description .description-top .y {
+      font-size: 14px;
+      margin-right: 6px; }
+    .employer-wrapper .employer-coordinate .coordinate-description .description-top .content {
+      margin-right: 20px; }
+      .employer-wrapper .employer-coordinate .coordinate-description .description-top .content:last-child {
+        margin-right: 0; }
+    .employer-wrapper .employer-coordinate .coordinate-description .description-top .bubble {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      border: 1px solid #8A8A8A;
+      margin-right: 2px; }
+  .employer-wrapper .employer-coordinate .coordinate-description .description-bottom {
+    display: flex;
+    margin-top: 7px;
+    justify-content: center; }
+    .employer-wrapper .employer-coordinate .coordinate-description .description-bottom .description-item {
+      margin-right: 20px; }
+      .employer-wrapper .employer-coordinate .coordinate-description .description-bottom .description-item:last-child {
+        margin-right: 0; }
+      .employer-wrapper .employer-coordinate .coordinate-description .description-bottom .description-item .dot {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-right: 6px; }
+      .employer-wrapper .employer-coordinate .coordinate-description .description-bottom .description-item .name {
+        font-size: 12px;
+        color: #8A8A8A;
+        margin-right: 6px; }
+      .employer-wrapper .employer-coordinate .coordinate-description .description-bottom .description-item .percent {
+        font-size: 12px;
+        color: #333333; }
+  .employer-wrapper .employer-sort {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    color: #ccc; }
+    .employer-wrapper .employer-sort h2 {
+      font-size: 16px;
+      text-align: center; }
+    .employer-wrapper .employer-sort .distribution {
+      margin-top: 30px; }
+      .employer-wrapper .employer-sort .distribution > div {
+        margin: 0 auto 20px auto;
+        width: 300px;
+        position: relative;
+        color: #333; }
+        .employer-wrapper .employer-sort .distribution > div .source-name .ic-icon {
+          transform: translateY(2px);
+          margin-left: 4px;
+          color: #8A8A8A;
+          cursor: pointer; }
+      .employer-wrapper .employer-sort .distribution .number {
+        position: absolute;
+        top: 0;
+        right: 0; }
+      .employer-wrapper .employer-sort .distribution .wholeBar {
+        margin-top: 10px;
+        width: 300px;
+        height: 8px;
+        background: rgba(255, 208, 45, 0.3);
+        border-radius: 2px; }
+      .employer-wrapper .employer-sort .distribution .occupy {
+        transition: all .3s;
+        height: 8px;
+        background: #FFD02D;
+        border-radius: 2px 0 0 2px; }
+    .employer-wrapper .employer-sort .employer-sort-left {
+      width: 410px; }
+    .employer-wrapper .employer-sort .employer-sort-right {
+      width: 410px; }
+  .employer-wrapper .employer-analyse {
+    margin-top: 40px; }
+    .employer-wrapper .employer-analyse .employer-item {
+      display: flex;
+      flex-direction: row;
+      padding: 12px 0px;
+      border-top: 1px solid #eee; }
+      .employer-wrapper .employer-analyse .employer-item:first-child {
+        padding-top: 0px;
+        border-top: 0; }
+      .employer-wrapper .employer-analyse .employer-item .item-left {
+        width: 22px;
+        height: 22px;
+        background: #eee;
+        font-size: 14px;
+        color: #333333;
+        letter-spacing: 0.5px;
+        text-align: center;
+        padding-top: 1px;
+        margin-right: 12px; }
+      .employer-wrapper .employer-analyse .employer-item .item-right {
+        display: flex;
+        justify-content: space-between; }
+        .employer-wrapper .employer-analyse .employer-item .item-right .item-desc {
+          width: 760px; }
+          .employer-wrapper .employer-analyse .employer-item .item-right .item-desc .title {
+            font-size: 16px;
+            color: #333333;
+            letter-spacing: 0;
+            line-height: 22px; }
+          .employer-wrapper .employer-analyse .employer-item .item-right .item-desc .slogan {
+            font-size: 12px;
+            color: #999999;
+            letter-spacing: 0;
+            text-align: justify;
+            margin-top: 3px; }
+        .employer-wrapper .employer-analyse .employer-item .item-right i {
+          margin-right: 11px;
+          transform: translateY(7px); }
+      .employer-wrapper .employer-analyse .employer-item.active, .employer-wrapper .employer-analyse .employer-item.hover:hover {
+        background: #F4FCFF; }
+        .employer-wrapper .employer-analyse .employer-item.active .item-left, .employer-wrapper .employer-analyse .employer-item.hover:hover .item-left {
+          background: #3B99FF;
+          color: #FFF; }
+        .employer-wrapper .employer-analyse .employer-item.active .title, .employer-wrapper .employer-analyse .employer-item.hover:hover .title {
+          color: #3B99FF; }
+      .employer-wrapper .employer-analyse .employer-item.hover:hover {
+        cursor: pointer; }
+    .employer-wrapper .employer-analyse .detail .list-advantage {
+      padding-top: 10px;
+      padding-bottom: 18px; }
+    .employer-wrapper .employer-analyse .detail .advantage-list {
+      font-size: 12px;
+      line-height: 18px;
+      margin-bottom: 30px; }
+      .employer-wrapper .employer-analyse .detail .advantage-list .advantage-name {
+        color: #151515;
+        letter-spacing: 0;
+        text-align: justify;
+        font-weight: bold; }
+      .employer-wrapper .employer-analyse .detail .advantage-list:last-child {
+        margin-bottom: 0px;
+        padding-bottom: 14px; }
+      .employer-wrapper .employer-analyse .detail .advantage-list .advantage-content {
+        margin-bottom: 18px; }

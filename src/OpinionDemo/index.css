@@ -1,0 +1,263 @@
+.opinion-demo {
+  position: relative;
+  min-height: 1669px; }
+  .opinion-demo .apply-use-btn {
+    background: #3B99FF;
+    border-radius: 4px;
+    border: 0; }
+    .opinion-demo .apply-use-btn span {
+      font-size: 18px;
+      color: #FFFFFF;
+      letter-spacing: 0.2px;
+      font-weight: normal; }
+  .opinion-demo .demo-top {
+    padding: 67px 70px 0;
+    height: 572px;
+    background-image: url("../img/demo-banner.png");
+    background-size: 100% 572px; }
+    .opinion-demo .demo-top .top-wrapper {
+      width: 940px;
+      margin: 0 auto; }
+    .opinion-demo .demo-top .content-top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      .opinion-demo .demo-top .content-top .back2intro {
+        cursor: pointer; }
+        .opinion-demo .demo-top .content-top .back2intro i {
+          color: #999;
+          font-weight: bold;
+          transform: translateY(2px); }
+        .opinion-demo .demo-top .content-top .back2intro .back {
+          font-weight: bold;
+          font-size: 20px;
+          color: #999999;
+          letter-spacing: 0;
+          line-height: 20px; }
+      .opinion-demo .demo-top .content-top .title-img {
+        width: 329px;
+        height: 36px;
+        margin: 0 auto;
+        background-image: url("../img/opinion-title.png"); }
+      .opinion-demo .demo-top .content-top .apply-use-btn {
+        width: 97px;
+        height: 30px;
+        margin-top: -4px; }
+        .opinion-demo .demo-top .content-top .apply-use-btn span {
+          font-size: 14px;
+          letter-spacing: 0.16px;
+          line-height: 18px; }
+    .opinion-demo .demo-top .content-slogan {
+      margin-top: 44px;
+      margin-bottom: 60px;
+      font-size: 12px;
+      color: #8FC4FF;
+      letter-spacing: 0;
+      line-height: 14px;
+      text-align: center; }
+      .opinion-demo .demo-top .content-slogan .vertical-line {
+        font-size: 12px;
+        overflow: hidden;
+        padding: 0 0 0 30px;
+        /*&:before {
+            content: '|';
+            font-size: 12px;
+            color: #8FC4FF;
+            position: relative;
+            right: 14px;
+        }*/ }
+    .opinion-demo .demo-top .statistics {
+      display: flex;
+      justify-content: space-between; }
+      .opinion-demo .demo-top .statistics .total-number {
+        margin-left: 220px;
+        padding-top: 30px; }
+        .opinion-demo .demo-top .statistics .total-number .number-descr {
+          font-size: 14px;
+          color: #FFFFFF;
+          border-left: 4px solid #3B99FF;
+          padding-left: 7px;
+          height: 14px;
+          line-height: 14px; }
+          .opinion-demo .demo-top .statistics .total-number .number-descr i {
+            color: #999;
+            font-size: 14px;
+            margin-left: 6px;
+            cursor: pointer; }
+        .opinion-demo .demo-top .statistics .total-number .number-value {
+          font-weight: bold;
+          font-size: 36px;
+          color: #3B99FF;
+          letter-spacing: 0;
+          padding-left: 9px;
+          padding-top: 6px; }
+      .opinion-demo .demo-top .statistics .statistics-classify {
+        display: flex;
+        margin-right: 217px; }
+        .opinion-demo .demo-top .statistics .statistics-classify svg {
+          transform: translate(-9px, -15px); }
+          .opinion-demo .demo-top .statistics .statistics-classify svg circle {
+            cursor: pointer; }
+        .opinion-demo .demo-top .statistics .statistics-classify .statistics-number .statistics-item {
+          position: relative;
+          cursor: pointer;
+          line-height: 23px;
+          margin-top: 7px; }
+        .opinion-demo .demo-top .statistics .statistics-classify .statistics-number .statistics-number-dot {
+          display: inline-block;
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          margin-right: 10px; }
+        .opinion-demo .demo-top .statistics .statistics-classify .statistics-number .statistics-number-dot-circle {
+          position: absolute;
+          display: inline-block;
+          width: 14px;
+          height: 14px;
+          border-radius: 50%;
+          margin-right: 10px;
+          border-style: solid;
+          border-width: 1px;
+          left: -2px;
+          top: 5px;
+          border-color: transparent; }
+        .opinion-demo .demo-top .statistics .statistics-classify .statistics-number .statistics-number-name {
+          font-size: 14px;
+          color: #FFFFFF; }
+        .opinion-demo .demo-top .statistics .statistics-classify .statistics-number .statistics-number-percentage {
+          font-size: 14px;
+          color: #FFFFFF; }
+  .opinion-demo .demo-content-wrapper {
+    width: 940px;
+    margin-top: -133px;
+    left: 50%;
+    margin-left: -470px;
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 53px 60px 110px 60px; }
+    .opinion-demo .demo-content-wrapper .analyze-header .analyze-title {
+      font-size: 26px;
+      color: #333333;
+      letter-spacing: 0;
+      margin-left: 314px; }
+    .opinion-demo .demo-content-wrapper .analyze-header .analyze-slogan {
+      font-size: 12px;
+      color: #333333;
+      letter-spacing: 0;
+      text-align: center;
+      margin-bottom: 54px;
+      margin-top: 10px; }
+    .opinion-demo .demo-content-wrapper .ant-tabs-bar {
+      border-bottom: 0px;
+      margin-bottom: 41px; }
+      .opinion-demo .demo-content-wrapper .ant-tabs-bar .ant-tabs-nav-wrap {
+        text-align: center;
+        /*.ant-tabs-ink-bar-no-animated {
+            width: 84px !important;
+        }*/ }
+        .opinion-demo .demo-content-wrapper .ant-tabs-bar .ant-tabs-nav-wrap .ant-tabs-ink-bar {
+          bottom: 3px; }
+        .opinion-demo .demo-content-wrapper .ant-tabs-bar .ant-tabs-nav-wrap .ant-tabs-nav {
+          margin-left: 24px; }
+        .opinion-demo .demo-content-wrapper .ant-tabs-bar .ant-tabs-nav-wrap .ant-tabs-tab {
+          font-size: 16px;
+          color: #333333;
+          letter-spacing: 0;
+          padding-bottom: 14px;
+          padding-left: 10px;
+          padding-right: 10px;
+          margin-right: 18px; }
+          .opinion-demo .demo-content-wrapper .ant-tabs-bar .ant-tabs-nav-wrap .ant-tabs-tab.ant-tabs-tab-active {
+            color: #3B99FF;
+            font-weight: bold; }
+  .opinion-demo .demo-footer {
+    bottom: 0px;
+    height: 132px;
+    width: 100%;
+    background-image: url("../img/demo-footer.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #36373F;
+    padding: 50px 0;
+    margin-top: 40px; }
+    .opinion-demo .demo-footer button {
+      display: block;
+      margin: 0 auto;
+      width: 110px;
+      height: 32px; }
+    .opinion-demo .demo-footer .apply-use-btn {
+      background: #3B99FF;
+      border-radius: 4px;
+      border: 0; }
+      .opinion-demo .demo-footer .apply-use-btn span {
+        font-size: 18px;
+        color: #FFFFFF;
+        letter-spacing: 0.2px;
+        font-weight: normal; }
+
+.network-opinion .ant-tooltip-arrow {
+  bottom: 1px;
+  border-width: 7px 7px 0;
+  border-top-color: #eaeaea;
+  margin-left: -7px; }
+  .network-opinion .ant-tooltip-arrow:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 6px solid #fff;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    display: inline-block;
+    position: absolute;
+    top: -8px;
+    left: -6px; }
+
+.network-opinion .ant-tooltip-inner {
+  width: 333px;
+  padding: 15px 20px;
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  color: #333; }
+
+.sort-tooltip .ant-tooltip-inner {
+  max-height: 300px;
+  max-width: 500px;
+  overflow-y: scroll; }
+  .sort-tooltip .ant-tooltip-inner p {
+    font-weight: 300; }
+  .sort-tooltip .ant-tooltip-inner .username {
+    font-weight: 700;
+    color: #fff;
+    padding-top: 6px; }
+  .sort-tooltip .ant-tooltip-inner .highlight {
+    color: #f94f85; }
+
+.chart {
+  position: relative; }
+
+.tips {
+  position: absolute;
+  z-index: 999;
+  text-align: center;
+  transform: translate(-50%, -60px);
+  background: rgba(51, 51, 51, 0.85);
+  color: #fff;
+  border-radius: 6px;
+  padding: 10px 20px;
+  white-space: nowrap; }
+  .tips:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-width: 6px;
+    border-style: solid;
+    border-color: rgba(51, 51, 51, 0.85) transparent transparent transparent;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, 100%); }

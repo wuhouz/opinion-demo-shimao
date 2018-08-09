@@ -4,23 +4,23 @@ const DATA = [
     {
         name: "论坛",
         color: '#13DDC8',
-        percent: '48%'
+        percent: '58%'
     },
     {
         name: "微博",
         color: '#FFCD1A',
-        percent: '27%'
+        percent: '17%'
     },
     {
         name: "媒体",
         color: '#3B99FF',
-        percent: '17%'
+        percent: '13%'
 
     },
     {
         name: "博客",
         color: '#BFA7FF',
-        percent: '8%'
+        percent: '12%'
     },
 ];
 

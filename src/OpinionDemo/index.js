@@ -62,7 +62,7 @@ const SORT_CURRENT_MENTIONED = [
         14 * CONST_RATIO_SELF,
         desc: <div>
             <p className="username">用户一：</p>
-            <p>你选择加入苏州世茂商业<span className="highlight">运营</span>有限公司的原因是什么？看中发展平台，但是现实差距很大。</p>
+            <p>为什么愿意推荐朋友来这里工作？学习到的东西很多，这里的工作强度挺大的，全球化的<span className="highlight">运营</span>。但是大公司的福利什么的都挺好的，晋升机会也比较多。</p>
             <p className="username">用户二：</p>
             <p>世茂的发展速度快，而且在很多城市都有地标性建筑，未来还有很多的项目会发展。而且世茂已经有两家上市公司，所以整个公司的<span className="highlight">运营</span>状况是不错的。
             </p>
@@ -106,7 +106,7 @@ const SORT_CURRENT_SPECIAL = [
         desc:
             <div>
                 <p className="username">用户一：</p>
-                <p>你选择加入苏州世茂商业<span className="highlight">运营</span>有限公司的原因是什么？看中发展平台，但是现实差距很大。</p>
+                <p>为什么愿意推荐朋友来这里工作？学习到的东西很多，这里的工作强度挺大的，全球化的<span className="highlight">运营</span>。但是大公司的福利什么的都挺好的，晋升机会也比较多。</p>
                 <p className="username">用户二：</p>
                 <p>世茂的发展速度快，而且在很多城市都有地标性建筑，未来还有很多的项目会发展。而且世茂已经有两家上市公司，所以整个公司的<span className="highlight">运营</span>状况是不错的。
                 </p>
@@ -124,27 +124,23 @@ const SORT_CURRENT_SPECIAL = [
         </div>
     },
     {
-        name: '招聘',
+        name: '友好',
         num: 4 * CONST_RATIO_SELF,
         desc: <div>
             <p className="username">用户一：</p>
-            <p><span className="highlight">招聘</span>也非常混乱，内部IT的管理都是由集团公司的IT部门负责，商管公司的IT没有什么实质性的工作内容，主要工作就是商场的IT设备设施的管理，学不到太多新的东西，流程比较复杂。办公环境一般吧，在陆家嘴周围吃饭实在是个问题，上下班地铁也非常拥挤，不太推荐来这里上班。
-            </p>
+            <p>为什么愿意推荐朋友来这里工作？入职的世茂浙江区域，正式录用前会有一个月左右的实习，主要任务是学习销售。公司同事都比较<span className="highlight">友好</span>，有些领导真的比较有能力，但是加班压力也比较大，房地产行业就是这个样子。</p>
             <p className="username">用户二：</p>
-            <p>四年时间我负责过几乎所有职能的<span className="highlight">招聘</span>，去了二十多个城市，参与了商业、酒店、乐园、保理、融资租赁等各类业务的组建。在集团，接触人员的层面更高。除了对接各职能副总裁、区域总、总监，<span
-                className="highlight">招聘</span>高级别岗位，还要定期向老板汇报，对个人视野的打开和全局观的建立很有帮助。</p>
+            <p>上级处理事情严肃，有自己原则。工作氛围比较轻松，没什么压力，同事之间很团结<span className="highlight">友好</span>。</p>
         </div>
     },
     {
-        name: '入住',
+        name: '便宜',
         num: 2 * CONST_RATIO_SELF,
         desc: <div>
             <p className="username">用户一：</p>
-            <p>从酒店经营管理的运作来看，我同意朱总的意见，单体酒店也好，或者是集团性的酒店也好，可能更多的还是要关注科技在酒店当中的应用，来确保客户、客人在酒店的<span
-                className="highlight">入住</span>体验上，通过高科技的应用，能够有进一步的便利和改进。</p>
+            <p>公司都有哪些福利呢？（比如房补、交通补助、补充保险之类的）有什么特别优于其他公司的福利吗？五险一金，食宿<span className="highlight">便宜</span>。</p>
             <p className="username">用户二：</p>
-            <p>近年来，世茂集团通过与喜达资本成立合资公司，签约了多个全球酒店项目;同时，还打造出6大品牌服务矩阵，给不同出行需求的客人多元化的<span className="highlight">入住</span>选择。
-            </p>
+            <p>提供住宿，自己吃饭公司内饭很<span className="highlight">便宜</span>，五险一金缴存很低。</p>
         </div>
     }
 ];
